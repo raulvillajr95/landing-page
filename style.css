@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
 body {
   margin: 0;
@@ -12,29 +12,124 @@ body {
 
 .navigation {
   background-color: #1F2937;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
 }
 .navigation ul {
   display: flex;
   list-style-type: none;
 }
 .navigation ul li {
-  margin-left: 20px; 
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 .navigation ul li:nth-child(3){
-  margin-right: 180px;
+  margin-right: 200px;
 }
 .navigation .logo {
-  margin-left: 180px;
+  margin-left: 200px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .first {
   background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+}
+.first .container {
+  margin-left: 200px;
+  height: 250px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.first .container h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.first .container p {
+  color: #E5E7EB;
+  margin-top: 0;
+  font-size: 18px;
+}
+.first .container button {
+  border-radius: 10px;
+  border-style: none;
+  height: 37px;
+  width: 100px;
+  color: #F9FAF8;
+  font-size: 18px;
+  background-color: #3882F6;
+}
+.first .firstImage {
+  margin-right: 200px;
+  background-color: gray;
+  height: 250px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+}
+
+.second {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.second h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+.second .container {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: space-between;
+}
+.second .container .image {
+  height: 130px;
+  width: 130px;
+  border: 5px solid #3882F6;
+  border-radius: 15px;
+}
+.second>.container>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second>.container>div>p {
+  text-align: center;
+  color: #1F2937;
 }
 
 .third {
   background-color: #E5E7EB;
+}
+
+footer {
+  background-color: #1F2937;
+  height: 80px;
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
